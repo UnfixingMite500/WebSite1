@@ -1,281 +1,106 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Links -->
     <link rel="stylesheet" href="Style/Style.css">
-    <link rel="stylesheet" href="Style/media.css">
-    <link rel="stylesheet" href="Style/fonts.css">
+    <link rel="stylesheet" href="Style/Fonts.css">
+    <link rel="stylesheet" href="Style/Media.css">
     <link rel="stylesheet" href="fontawesome/css/all.min.css">
     <title>Главная страница</title>
 </head>
 <body>
     <header class="header">
-      <input type="checkbox" id="check">
-        <label for="check" class="btn">
-            <span class="bars"></span>
-        </label>
-        <div class="microheadernav">
-        <nav class="header__nav">
-            <div class="header__logo">
-                <a href="index.html">
-                    <img src="Images/Logo.svg" alt="">
-                </a>
-            </div>
-            <div class="header__links">
-                <ul class="header__list">
-                    <li><a href="#" class="header__link">Главная</a></li>
-                    <li><a href="#" class="header__link">Курсы</a></li>
-                    <li><a href="#" class="header__link">Расписание</a></li>
-                    <li><a href="#" class="header__link">Преподаватели</a></li>
-                    <li><a href="#" class="header__link">Рассылка</a></li>
-                    <li><a href="#" class="header__link">Контакты</a></li>
-                </ul>
-            </div>
-            <div class="login">
-                <a href="#" class="login__title">Зайти в кабинет</a>
+        <nav class="header-nav">
+            <div class="container">
+                <div class="header-nav__content">
+                    <div class="header-nav-title">
+                        <h2 class="header-nav-title__title">HouseVOP</h2>
+                        <p class="header-nav-title__descr">ЖИЛОЙ КОМПЛЕКС</p>
+                    </div>
+                    <ul class="header-nav__list">
+                        <li><a class="header-nav__link" href="#">О комплексе</a></li>
+                        <li><a class="header-nav__link" href="#">Район</a></li>
+                        <li><a class="header-nav__link" href="#">Каталог квартир</a></li>
+                        <li><a class="header-nav__link" href="#">Ипотека</a></li>
+                        <li><a class="header-nav__link" href="#">Контакты</a></li>
+                    </ul>
+                    <p href="#" class="header__btn">
+                        <span class="bars"></span>
+                    </p>
+                </div>
             </div>
         </nav>
-    </div>
-    <div class="container">
-        <div class="header__content">
-            <h1 class="header__title">Первый курс по компьютерной сборке</h1>
-            <div class="header__timer">
-                <div class="timer__block d "><h4 class="timer__title"><span>0</span></h4> <p class="timer__descr">дней</p></div>
-                <div class="timer__block h "><h4 class="timer__title"><span>0</span></h4> <p class="timer__descr">часов</p></div>
-                <div class="timer__block m "><h4 class="timer__title"><span>0</span></h4> <p class="timer__descr">минут</p></div>
-                <div class="timer__block s "><h4 class="timer__title"><span>0</span></h4> <p class="timer__descr">секунд</p></div>
+        <div class="header-content">
+            <h1 class="header-content__title">Жилой комплекс в историческом центре</h1>
+            <i class="far fa-mouse-alt"></i>
+            <div class="header-content-contacts">
+                <a  href="#" class="header-content-contacts__descr"><span><i class="fal fa-map-marker-alt"></i></span>Наб. реки Фонтанки 10-15</a>
+                <a  href="#" class="header-content-contacts__descr"><span><i class="far fa-phone-alt"></i></span>8 (812) 123-45-67</a>
             </div>
         </div>
-    </div>
     </header>
     <main class="main">
-        <section class="course-info">
-            <div class="curse-info__container container">
-                <a href="#" class="course-buy__title">Заказать курс</a>
-                <ul class="course-members">
-                    <li class="course-members__link"><span>Учеников всего:</span> 200</li>
-                    <li class="course-members__link"><span>Успешно закончили курс:</span> 190</li>
-                </ul>
-                <div class="earned">
-                    <p class="earned__descr"><span>Заработано учениками:</span> <span class="earned__descr__count">400 000</span>₽</p>
-                    <div class="earned-band"><span></span></div>
-                    <ul class="earned-band-goal">
-                        <li>0</li>
-                        <li>1 000 000₽</li>
-                    </ul>
-                </div>
-            </div>
-        </section>
-        <section class="about">
-            <div class="about__container container">
-                <div class="square"></div>
-                    <img src="Images/aboutImg.png" class="About__img" alt="AboutImg">
-                <div class="about-content">
-                    <h3 class="section__title about-content__title">Чем мы занимаемся?</h3>
-                    <p class="section__descr about-content__descr">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eget neque, dignissim et feugiat elit augue in suspendisse egestas. Dictum vestibulum mi et sed nunc, orci fermentum vestibulum, morbi. Et neque, adipiscing sapien sem senectus praesent aenean consequat. Aenean facilisi turpis aliquet fringilla. Nunc sem felis sed interdum feugiat mattis elit, sollicitudin. Quam pharetra rhoncus risus, cursus id elementum aliquet. Nullam turpis arcu malesuada arcu interdum placerat nisi, lobortis.</p>
-                </div>
-            </div>
-        </section>
-        <section class="start">
-            <div class="start__container container">
-                <div class= "start-title">
-                    <img src="Images/Ellipse1.svg" class="section__img start-title__img" alt="">
-                    <h3 class="section__title start-title__title">Быстрый старт</h3>
-                </div>
-                <p class="section__descr start__descr">Больше 90% учеников прошли полный курс и смогли собрать свой первый компьютер</p>
-                <div class="start-content">
-
-                    <div class="start-content__block">
-                        <h4 class="start-content__title">100%</h4>
-                        <div class="start-content__square-space"><div class="start-content__square first"></div></div>
-                        <p class="section__descr start-content__descr">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Netus eget velit quisque accumsan amet tortor. Velit, volutpat egestas fringilla mi porttitor tempus. Placerat dui.</p>
+        <section class="testimonials">
+            <h1 class="count second">II</h1>
+            <div class="container">
+                <div class="testimonials-content">
+                    <div class="testimonials-block">
+                        <img class="testimonials-block__img" src="Images/bench.svg" alt="bench">
+                        <p class="testimonials-block__descr">Рядом исторические парки и скверы</p>
                     </div>
-                    <div class="start-content__block">
-                        <h4 class="start-content__title">75%</h4>
-                        <div class="start-content__square-space"><div class="start-content__square second"></div></div>
-                        <p class="section__descr start-content__descr">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Netus eget velit quisque accumsan amet tortor. Velit, volutpat egestas fringilla mi porttitor tempus. Placerat dui.</p>
+                    <div class="testimonials-block">
+                        <img class="testimonials-block__img" src="Images/building.svg" alt="bench">
+                        <p class="testimonials-block__descr">Полностью обустроенный</p>
                     </div>
-                    <div class="start-content__block">
-                        <h4 class="start-content__title">50%</h4>
-                        <div class="start-content__square-space"><div class="start-content__square third"></div></div>
-                        <p class="section__descr start-content__descr">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Netus eget velit quisque accumsan amet tortor. Velit, volutpat egestas fringilla mi porttitor tempus. Placerat dui.</p>
+                    <div class="testimonials-block">
+                        <img class="testimonials-block__img" src="Images/fountain.svg" alt="bench">
+                        <p class="testimonials-block__descr">10 фонтанов на территории</p>
                     </div>
-                    <div class="start-content__block">
-                        <h4 class="start-content__title">Итог</h4>
-                        <div class="start-content__square-space"><div class="start-content__square fourth"></div></div>
-                        <p class="section__descr start-content__descr">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Netus eget velit quisque accumsan amet tortor. Velit, volutpat egestas fringilla mi porttitor tempus. Placerat dui.</p>
-                    </div>
-
-                </div>
-            </div>
-        </section>
-        <section class="advantages">
-            <div class="advantages__container container">
-                <h3 class="section__title advantages__title">Получите профессию прямо сейчас</h3>
-                <div class="advantages-content">
-                    <div class="advantages-content__block">
-                        <img src="Images/ComputerIcon.svg" class="advantages-content__img" alt="ComputerIcon">
-                        <h5 class="advantages-content__title">Только практические навыки в работе</h5>
-                        <p class="section__descr advantages-content__descr">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Netus eget velit quisque accumsan amet tortor. Velit, volutpat egestas fringilla mi porttitor tempus. Placerat dui.</p>
-                    </div>
-                    <div class="advantages-content__block">
-                        <img src="Images/FlashIcon.svg" class="advantages-content__img" alt="ComputerIcon">
-                        <h5 class="advantages-content__title">Работа на самом современном оборудовании</h5>
-                        <p class="section__descr advantages-content__descr">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Netus eget velit quisque accumsan amet tortor. Velit, volutpat egestas fringilla mi porttitor tempus. Placerat dui.</p>
-                    </div>
-                    <div class="advantages-content__block">
-                        <img src="Images/USBIcon.svg" class="advantages-content__img" alt="ComputerIcon">
-                        <h5 class="advantages-content__title">Сертификация по окончании обучения</h5>
-                        <p class="section__descr advantages-content__descr">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Netus eget velit quisque accumsan amet tortor. Velit, volutpat egestas fringilla mi porttitor tempus. Placerat dui.</p>
+                    <div class="testimonials-block">
+                        <img class="testimonials-block__img" src="Images/bicycle.svg" alt="bench">
+                        <p class="testimonials-block__descr">6 км велодорожек</p>
                     </div>
                 </div>
             </div>
         </section>
-        <section class="partners">
-            <div class="partners__container container">
-                <div class= "start-title">
-                    <img src="Images/Ellipse2.svg" class="section__img start-title__img" alt="">
-                    <h3 class="section__title start-title__title">Партнеры - топовые бренды</h3>
-                </div>
-                <div class="partners-content">
-                    <div class="partners-content_block">
-                        <a class="partners-content__img" href="#"><img src="Images/MSILogo.png" alt="MSILogo"></a><span class="partners-content-stick"></span>
-                        <a class="partners-content__img" href="#"><img src="Images/MSILogo.png" alt="MSILogo"></a><span class="partners-content-stick"></span>
-                        <a class="partners-content__img" href="#"><img src="Images/MSILogo.png" alt="MSILogo"></a><span class="partners-content-stick"></span>
-                        <a class="partners-content__img" href="#"><img src="Images/MSILogo.png" alt="MSILogo"></a>
-                    </div>
-                    <span class="stick"></span>
-                    <div class="partners-content_block">
-                        <a class="partners-content__img" href="#"><img src="Images/MSILogo.png" alt="MSILogo"></a><span class="partners-content-stick"></span>
-                        <a class="partners-content__img" href="#"><img src="Images/MSILogo.png" alt="MSILogo"></a><span class="partners-content-stick"></span>
-                        <a class="partners-content__img" href="#"><img src="Images/MSILogo.png" alt="MSILogo"></a><span class="partners-content-stick"></span>
-                        <a class="partners-content__img" href="#"><img src="Images/MSILogo.png" alt="MSILogo"></a>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <section class="program">
-            <div class="program__container container">
-                <img src="Images/Ellipse3.svg" class="section__img program__img" alt="Ellipse3">
-                <h3 class="section__title program__title">Программа обучения</h3>
-                <p class="section__descr program__descr">Больше 90% учеников прошли полный курс и смогли собрать свой первый компьютер</p>
-                <div class="program-content">
-                    <div class="program-time-left">
-                        <div class="program-time-left-week">
-                            <div class="program-time-left-week__content">
-                                <p class="program-time-left__descr">Неделя №1</p>
-                                <h4 class="program-time-left__title">Красивая часть курса, которая помогает в успехе</h4>
-                            </div>
-                            <span class="program-time-line"></span>
-                        </div>
-                        <div class="program-time-left-week">
-                            <div class="program-time-left-week__content">
-                                <p class="program-time-left__descr">Неделя №3</p>
-                                <h4 class="program-time-left__title">Красивая часть курса, которая помогает в успехе</h4>
-                            </div>
-                            <span class="program-time-line"></span>
-                        </div>
-                        <div class="program-time-left-week">
-                            <div class="program-time-left-week__content">
-                                <p class="program-time-left__descr">Неделя №5</p>
-                                <h4 class="program-time-left__title">Красивая часть курса, которая помогает в успехе</h4>
-                            </div>
-                            <span class="program-time-line"></span>
-                        </div>
-                        <div class="program-time-left-week">
-                            <div class="program-time-left-week__content">
-                                <p class="program-time-left__descr">Неделя №7</p>
-                                <h4 class="program-time-left__title">Красивая часть курса, которая помогает в успехе</h4>
-                            </div>
-                            <span class="program-time-line"></span>
+        <section class="appartments">
+            <h1 class="count third">III</h1>
+            <div class="container">
+                <h3 class="appartments__title">Наши квартиры</h3>
+                <div class="appartments__content">
+                    <div class="appartments__content__block">
+                        <img src="Images/appartmentImg.png" alt="">
+                        <div class="appartments__abs">
+                            <p class="appartments__abs__descr">Лофт — 3 этажа</p>
                         </div>
                     </div>
-                    <span class="timeline"></span>
-                    <div class="program-time-right">
-                        <div class="program-time-right-week">
-                            <span class="program-time-line"></span>
-                            <div class="program-time-right-week__content">
-                                <p class="program-time-right__descr">Неделя №2</p>
-                                <h4 class="program-time-right__title">Красивая часть курса, которая помогает в успехе</h4>
-                            </div>
-                        </div>
-                        <div class="program-time-right-week">
-                            <span class="program-time-line"></span>
-                            <div class="program-time-right-week__content">
-                                <p class="program-time-right__descr">Неделя №3</p>
-                                <h4 class="program-time-right__title">Красивая часть курса, которая помогает в успехе</h4>
-                            </div>
-                        </div>
-                        <div class="program-time-right-week">
-                            <span class="program-time-line"></span>
-                            <div class="program-time-right-week__content">
-                                <p class="program-time-right__descr">Неделя №5</p>
-                                <h4 class="program-time-right__title">Красивая часть курса, которая помогает в успехе</h4>
-                            </div>
+                    <div class="appartments__content__block">
+                        <img src="Images/appartmentImg.png" alt="">
+                        <div class="appartments__abs">
+                            <p class="appartments__abs__descr">Лофт — 2 этажа</p>
                         </div>
                     </div>
-                </div>
-            </div>
-        </section>
-        <section class="teachers">
-            <div class="teachers__container container">
-                <div class= "start-title">
-                    <img src="Images/Ellipse4.svg" class="section__img start-title__img" alt="">
-                    <h3 class="section__title start-title__title">Ваши преподаватели</h3>
-                </div>
-                <div class="teachers__content">
-                    <div class="teachers-teacher">
-                        <img src="Images/Teacher1.png" class="teachers-teacher__img" alt="Teacher1">
-                        <h4 class="teachers-teacher__title">Дмитрий Иванов</h4>
-                        <p class="section__descr teacher-teacher__descr">Специалист по видеокартам</p>
-                        <a href="#" class="teacher-teacher__bio">Биография</a>
+                    <div class="appartments__content__block">
+                        <img src="Images/appartmentImg.png" alt="">
+                        <div class="appartments__abs">
+                            <p class="appartments__abs__descr">Лофт — 3 этажа</p>
+                        </div>
                     </div>
-                    <div class="teachers-teacher">
-                        <img src="Images/Teacher2.png" class="teachers-teacher__img" alt="Teacher2">
-                        <h4 class="teachers-teacher__title">Дмитрий Иванов</h4>
-                        <p class="section__descr teacher-teacher__descr">Специалист по видеокартам</p>
-                        <a href="#" class="teacher-teacher__bio">Биография</a>
-                    </div>
-                    <div class="teachers-teacher">
-                        <img src="Images/Teacher3.png" class="teachers-teacher__img" alt="Teacher3">
-                        <h4 class="teachers-teacher__title">Дмитрий Иванов</h4>
-                        <p class="section__descr teacher-teacher__descr">Специалист по видеокартам</p>
-                        <a href="#" class="teacher-teacher__bio">Биография</a>
+                    <div class="appartments__content__block">
+                        <img src="Images/appartmentImg.png" alt="">
+                        <div class="appartments__abs">
+                            <p class="appartments__abs__descr">Лофт — 2 этажа</p>
+                        </div>
                     </div>
                 </div>
             </div>
         </section>
     </main>
-    <footer class="footer">
-        <div class="footer__container container">
-            <div class="footer__content">
-                <h2 class="section__title footer__title">Статьи каждую неделю</h2>
-                <p class="section__descr footer__descr">Больше 90% учеников прошли полный курс и смогли собрать свой первый компьютер</p>
-            <div class="footer__form">
-                <form>
-                    <input class="footer__input" type="text">
-                    <button class="footer__button" type="submit">Подписаться</button>
-                </form>
-            </div>
-            <div class="footer-soc">
-                <a class="footer-soc__icon" href="#"><img src="Images/vk.svg" alt=""></a>
-                <a class="footer-soc__icon" href="#"><img src="Images/youtube.svg" alt=""></a>
-                <a class="footer-soc__icon" href="#"><img src="Images/facebook.svg" alt=""></a>
-                <a class="footer-soc__icon" href="#"><img src="Images/instagram.svg" alt=""></a>
-            </div>
-            <p class="section__descr footer__about">Создатель:Отабек Асилов.Создан в целях демонстрации своих умений в html, css и js</p>
-        </div>
-        </div>
-    </footer>
 
-
-
-
-
-
-
-    <script src="script.js"></script>
+    
+    <script src="Script/Script.js"></script>
 </body>
 </html>
